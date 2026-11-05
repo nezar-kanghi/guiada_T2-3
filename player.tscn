@@ -1,0 +1,38 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" uid="uid://cqn3w0aqup4q3" path="res://player.gd" id="1_script"]
+[ext_resource type="Texture2D" uid="uid://ch1pslv8wywa8" path="res://sprite/luciernaga.png" id="2_tex"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tex")
+}],
+"loop": true,
+"name": &"up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tex")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1"]
+radius = 10.0
+
+[node name="Player" type="Area2D"]
+script = ExtResource("1_script")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_1")
+animation = &"walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_1")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

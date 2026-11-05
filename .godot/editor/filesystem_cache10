@@ -1,0 +1,11 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1793903340
+main.gd::GDScript::2609036356628645187::1793903125::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::-1::1793903125::0::1::::<><><>0<>0<><>::res://main.gd<>res://mob.tscn<>res://player.tscn
+mob.gd::GDScript::3374509883003431178::1793903125::0::1::::<>RigidBody2D<><>0<>0<><>::
+mob.tscn::PackedScene::-1::1793903340::0::1::::<><><>0<>0<><>::uid://bocvxjtpoeofi::::res://mob.gd<>uid://ch3cyb1cwjcs2::::res://sprite/agujero_negro.png
+player.gd::GDScript::5924440453498936808::1793903125::0::1::::<>Area2D<><>0<>0<><>::
+player.tscn::PackedScene::-1::1793903340::0::1::::<><><>0<>0<><>::uid://cqn3w0aqup4q3::::res://player.gd<>uid://ch1pslv8wywa8::::res://sprite/luciernaga.png
+::res://sprite/::1793903181
+agujero_negro.png::CompressedTexture2D::5322130235814244847::1793903125::1793903340::1::::<><><>0<>0<>86efbe4191e830f8b5e34abe59835de9<>res://.godot/imported/agujero_negro.png-035565fe3dd8fbef03d62525d45530a9.ctex::
+luciernaga.png::CompressedTexture2D::5318780605367249529::1793903125::1793903340::1::::<><><>0<>0<>05bce5f2f7ed470bb0c14faa8f4fe0f0<>res://.godot/imported/luciernaga.png-52cc6a797c1e1e7ebedb901037ea9610.ctex::
